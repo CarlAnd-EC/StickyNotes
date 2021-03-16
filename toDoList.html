@@ -1,0 +1,139 @@
+<!--
+HTML & CSS
+Team 4:
+André Mendoza
+Carlos Escalona
+Carlos Salazar
+Emmanuel Bolaños
+José Gómez
+Manuel Lirano
+Sergio Pérez
+
+Kanban.html
+
+2. A Kanban to-do list
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do List Team 4</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kanban</h1>
+      <p>Your very own To Do List</p>
+      <p>To admire your photographies</p>
+      <style>
+        .board1{
+          display:flex;
+          flex-direction:row;
+          border:5px solid black;
+          margin:15px 20px;
+        }
+        .container{
+          display:flex;
+          flex-direction:column;
+          border:2px solid red;
+          align-content:center;
+
+        }
+      
+        .item{
+          display:flex;
+          border:2px solid white;
+          margin:15px 20px;
+          width:300px;
+          height:300px;
+          justify-content: space-around;
+        }
+        
+      </style>
+    </header>
+    <nav class="topnav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="stickyNotes.html">Sticky Notes</a></li>
+      <li><a class="active">Cool Kanban To-Do list</a></li>
+      <li><a href="photoGallery.html">Awesome Photo-Gallery</a></li>
+    </ul>
+  	</nav>
+    <section class="board1">
+    	  <section class="container">
+          <h2>Missing</h2>
+          <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>
+          <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>
+          <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>
+        </section>
+    <section class="container">
+        <h2>Pending</h2>
+        <article class="item">
+          <h3></h3>
+          <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+          </form>
+        </article>
+      <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>
+      <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>
+      </section>
+     <section class="container">
+        <h2>Done</h2>
+        <article class="item">
+          <h3></h3>
+          <form>
+            <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+            <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+          </form>
+        </article>
+       <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>
+          <article class="item">
+            <h3></h3>
+            <form>
+              <textarea name="textarea" placeholder="title" class="noteTitle"></textarea>
+              <textarea name="textarea" placeholder="Tasks" class="noteContent"></textarea>
+            </form>
+          </article>       
+      </section>
+    </section>
+  </body>
+</html>
