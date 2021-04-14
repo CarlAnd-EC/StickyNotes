@@ -11,4 +11,5 @@ Authors:
 - Manuel Lirano
 - Sergio Pérez
 
+You can find the app at https://carlosaec-ks.github.io/StickyNotes/:
 - [Try it!](https://carlosaec-ks.github.io/StickyNotes/)
